@@ -1,0 +1,92 @@
+.H_btn{
+    margin-top: 7vw;
+}
+.H_btn a {
+    font-size: 1.2vw;
+    padding: 8px 20px 8px 20px;
+    color: #fff;
+    background-color: #424895;
+    border-radius: 10px;
+}
+.Container{
+    font-family: 'GowunBatang-Regular';
+    background-color: #f4f4f4;
+}
+.Hel_Main_area{
+    width: 100%;
+    height: 900px;
+    display: flex;
+}
+
+.Hel_Main_area .Hel_txt_area{
+    width: 66%;
+    height: 100%;
+    background: rgba(249, 201, 115, 1) 0% 0% no-repeat padding-box;
+    color: #fff;
+    padding-top: 150px;
+    padding-left: 150px;
+}
+.Hel_Main_area .Hel_txt_area .Main_txt h1 {
+    font-weight: 500;
+    font-size: 4.0vw;
+    text-shadow: 0px 3px 3px #00000029;
+    line-height: 1.2;
+}
+.Hel_Main_area .Hel_txt_area .Main_txt span{
+    color: rgba(66, 72, 149, 1)
+}
+.Hel_Main_area .Hel_txt_area .Sub_txt{
+    width: 50vw;
+    font-size: 1.2vw;
+    line-height: 1.5;
+}
+.Hel_Main_area .Img_area {
+    position: absolute;
+    top: 20%;
+    right: 2%;
+}
+.Hel_Main_area .Img_area img{
+    width: 40vw;
+}
+
+@media screen and (max-width:900px) {
+    .H_btn{
+        text-align: center;
+        margin-top: 15vw;
+    }
+    .H_btn a {
+        font-size: 2vw;
+        padding: 8px 20px 8px 20px;
+        color: #fff;
+        background-color: #424895;
+        border-radius: 10px;
+    }
+    .Hel_Main_area .Img_area img{
+        display: none;
+    }
+    .Hel_Main_area .Hel_txt_area{
+        width: 100%;
+        padding-left: 5vw;
+        padding-top: 37vw;
+    }
+    .Hel_Main_area .Hel_txt_area .Main_txt h1{
+        font-size: 8vw;
+        
+    }
+    .Hel_Main_area .Hel_txt_area .Sub_txt{
+        font-size: 4vw;
+        width: 80%;
+        line-height: 1.5;
+        font-weight: 300;
+    }
+    .Hel_Main_area .Img_area {
+        position: absolute;
+        left: 0%;
+        top: 50vw;
+    }
+    .Hel_Main_area .Img_area img{
+        width: 100%;
+        padding: 0 100px;
+    }
+    
+}

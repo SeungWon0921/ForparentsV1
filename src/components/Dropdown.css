@@ -1,0 +1,32 @@
+
+.reservation{
+    font-size: 1.5rem;
+}
+.reservation_m {
+    list-style: none;
+    font-size: 1.5rem;
+    margin-top: 50px;
+    justify-content: center;
+    text-align: center;
+} 
+
+.contact {
+    position: fixed;
+    bottom: 30px;
+    left: 25%;
+}
+*{
+    font-family: 'twayair';
+}
+.kakao {
+    position: fixed;
+    bottom: 30px;
+    right: 25%;
+}
+
+.shin {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 32px;
+}
+

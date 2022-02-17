@@ -1,0 +1,103 @@
+nav{
+    height: 60px;
+    display:flex;
+    text-align: center;
+    align-items: center;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+    background-color: transparent;
+
+}
+
+
+nav img:nth-child(1){
+    margin-left:8%;
+    height:27.9px;
+    position:fixed;
+}
+nav img:nth-child(2){
+    display:none;
+}
+.c_nav{
+    background-color: rgba(40, 46, 83, 0.7);
+}
+.sogae_sub{
+    display: none;
+    margin: 0;
+    left: 12.3vw;
+}
+.sogae_sub li{
+    padding-top: 15px;
+}
+.sogae:hover > .sogae_sub {
+    position: fixed;
+    display: block;
+
+}
+.reservation {
+    list-style: none;
+    font-size: 18px;
+} 
+a { text-decoration: none;}
+
+*{
+    font-family: 'GowunBatang-Regular';
+}
+
+
+.gnb {
+    display: flex;
+    list-style: none;
+    font-size: 18px;
+    color: #000;
+    text-align: center;
+}
+
+.gnb li{
+    position: relative;
+    margin:  0 50px;
+    left: 30vw;
+}
+.gnb li.home{
+    margin-left: 10vw;
+}
+
+.m_logo {
+    display: none;
+}
+
+@media screen and (max-width:900px) {
+    .m_logo {
+        width: 100%;
+        display: block;
+        position: fixed;
+        text-align: center;
+        color: #fafafa;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    nav img:nth-child(1){
+        display:none;
+    }
+    nav img:nth-child(2){
+        display:block;
+        height:34px;
+        position: fixed;
+        left: 35px;
+        top: 16px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

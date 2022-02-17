@@ -1,0 +1,106 @@
+
+.Main_Cont2_area{
+    font-family: 'GowunBatang-Regular';
+    display: flex;
+    background-color: #f4f4f4;
+    padding-top: 20vw;
+    margin-left: 10vw;
+    margin-bottom: 20vw;
+}
+.Main_Cont2_area h1 {
+    margin-bottom: 5vw;
+}
+.Main_Cont2_area .Main_Cont2_txt div {
+    width: 30vw;
+    word-break: keep-all;
+    line-height: 1.3;
+    margin-bottom: 76px;
+}
+.Main_Cont2_area .Main_Cont2_txt div p {
+    padding-top: 15px;
+    margin-left: 30px;
+}
+.Main_Cont2_area .Main_Cont2_img{
+    margin-left: 15%;
+    margin-top: 120px;
+}
+.Main_Cont2_area .Main_Cont2_img img {
+    width: 100%;
+}
+.Main_Cont2_area2 {
+    display: flex;
+    margin: 0 10vw 10vw 10vw;
+}
+
+.Main_Cont2_area2 .Main_Cont2_img img{
+    width: 100%;
+}
+.Main_Cont2_area2 .Main_Cont2_txt h3 {
+    font-size: 3.5vw;
+    margin-bottom: 5vw;
+}
+.Main_Cont2_area2 .Main_Cont2_txt{
+    margin-left: 15vw;
+    word-break: keep-all;
+    font-size: 1.5vw;
+    width: 533px;
+}
+.Main_Cont2_m_img{
+    display: none;
+}
+@media screen and (max-width:900px) {
+    .Main_Cont2_area{
+        display: block;
+        margin-left: 0;
+    }
+    .Main_Cont2_area2{
+        display: block;
+        margin: 0;
+    }
+    .Main_Cont2_area .Main_Cont2_img{
+        margin-left: 0;
+        text-align: center;
+    }
+    .Main_Cont2_area .Main_Cont2_img img{
+        width: 50%;
+    }
+    .Main_Cont2_area .Main_Cont2_txt div{
+        width: 90%;
+    }
+    .Main_Cont2_area2 .Main_Cont2_txt{
+        margin-left: 0;
+        width: 100%;
+        margin-bottom: 100px;
+    }
+    .Main_Cont2_area2 .Main_Cont2_img{
+        text-align: center;
+    }
+    .Main_Cont2_area2 .Main_Cont2_img img{
+        display: none;
+    }
+    .Main_Cont2_area .Main_Cont2_txt p{
+        margin-left: 0;
+    }.Main_Cont2_area .Main_Cont2_txt{
+        padding-left: 30px;
+    }
+    .Main_Cont2_area .Main_Cont2_txt p{
+        width: 100%;
+
+    }
+    .Main_Cont2_m_img{
+        display: block;
+        text-align: center;
+    }
+    .Main_Cont2_m_img img{
+        width: 70%;
+        margin-bottom: 100px;
+    }
+    .Main_Cont2_area2 .Main_Cont2_txt h3 {
+        font-size: 5vw;
+        padding-left: 30px;
+    }
+    .Main_Cont2_area2 .Main_Cont2_txt p {
+        font-size: 3.0vw;
+        padding: 0 50px;
+    }
+}

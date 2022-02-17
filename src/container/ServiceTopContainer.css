@@ -1,0 +1,71 @@
+.Container{
+    font-family: 'GowunBatang-Regular';
+    background-color: #f4f4f4;
+}
+.Ser_Main_area{
+    width: 100%;
+    height: 900px;
+    display: flex;
+}
+
+.Ser_Main_area .Ser_txt_area{
+    width: 66%;
+    height: 100%;
+    background: #6F769F 0% 0% no-repeat padding-box;
+    color: #fff;
+    padding-top: 150px;
+    padding-left: 80px;
+}
+.Ser_Main_area .Ser_txt_area .Main_txt h1 {
+    font-weight: 500;
+    font-size: 3.0vw;
+    text-shadow: 0px 3px 3px #00000029;
+    line-height: 1.2;
+}
+.Ser_Main_area .Ser_txt_area .Main_txt span{
+    color: rgba(255, 184, 55, 1);
+}
+.Ser_Main_area .Ser_txt_area .Sub_txt{
+    width: 50vw;
+    font-size: 1vw;
+    line-height: 1.5;
+}
+.Ser_Main_area .Img_area {
+    position: absolute;
+    top: 40%;
+    right: 2%;
+}
+.Ser_Main_area .Img_area img{
+    width: 40vw;
+}
+
+@media screen and (max-width:900px) {
+    .Ser_Main_area .Img_area img{
+        display: none;
+    }
+    .Ser_Main_area .Ser_txt_area{
+        width: 100%;
+        padding-left: 5vw;
+        padding-top: 30vw;
+    }
+    .Ser_Main_area .Ser_txt_area .Main_txt h1{
+        font-size: 6vw;
+        
+    }
+    .Ser_Main_area .Ser_txt_area .Sub_txt{
+        font-size: 3vw;
+        width: 100%;
+        line-height: 1.5;
+        font-weight: 300;
+    }
+    .Ser_Main_area .Img_area {
+        position: absolute;
+        left: 0%;
+        top: 50vw;
+    }
+    .Ser_Main_area .Img_area img{
+        width: 100%;
+        padding: 0 100px;
+    }
+    
+}

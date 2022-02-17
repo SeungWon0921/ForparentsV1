@@ -1,0 +1,88 @@
+.A_btn{
+    margin-top: 50px;
+}
+.A_btn a {
+    font-size: 2.5vw;
+    padding: 8px 20px 8px 20px;
+    color: #fff;
+    background-color: #FFB837;
+    border-radius: 10px;
+}
+.Container{
+    font-family: 'GowunBatang-Regular';
+    background-color: #f4f4f4;
+}
+.Ask_Main_area{
+    width: 100%;
+    height: 900px;
+    display: flex;
+}
+
+.Ask_Main_area .Ask_txt_area{
+    width: 100%;
+    height: 100%;
+    background: #C9CACA;
+    color: #000;
+    padding-top: 150px;
+    padding-left: 150px;
+}
+.Ask_Main_area .Ask_txt_area .Main_txt h1 {
+    font-weight: 500;
+    font-size: 5.0vw;
+    text-shadow: 0px 3px 3px #00000029;
+    line-height: 1.2;
+}
+.Ask_Main_area .Ask_txt_area .Main_txt span{
+    color: rgba(66, 72, 149, 1)
+}
+.Ask_Main_area .Ask_txt_area .Sub_txt{
+    width: 50vw;
+    font-size: 2vw;
+    line-height: 1.5;
+}
+
+
+
+@media screen and (max-width:900px) {
+    .A_btn{
+        text-align: center;
+        margin-top: 15vw;
+    }
+    .A_btn a {
+        font-size: 3vw;
+        padding: 8px 20px 8px 20px;
+        color: #fff;
+        background-color: #FFB837;
+        border-radius: 10px;
+    }
+    .Ask_Main_area .Ask_txt_area{
+        padding-left: 50px;
+        padding-top: 50px;
+    }
+    .Ask_Main_area .Img_area img{
+        display: none;
+    }
+    .Ask_Main_area .Ask_txt_area .Main_txt{
+        margin-top: 30%;
+    }
+    .Ask_Main_area .Ask_txt_area .Main_txt h1{
+        font-size: 6vw;
+        
+    }
+    .Ask_Main_area .Ask_txt_area .Sub_txt{
+        font-size: 3vw;
+        width: 80%;
+        line-height: 1.5;
+        font-weight: 300;
+    }
+    .Ask_Main_area .Img_area {
+        position: absolute;
+        left: 0%;
+        top: 50vw;
+    }
+    .Ask_Main_area .Img_area img{
+        width: 100%;
+        padding: 0 100px;
+    }
+    
+}

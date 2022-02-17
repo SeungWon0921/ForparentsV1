@@ -1,0 +1,93 @@
+
+.Main_Cont_area{
+    font-family: 'GowunBatang-Regular';
+    display: flex;
+    background-color: #f4f4f4;
+    padding-top: 20vw;
+    margin: 0 5vw;
+}
+.Main_Cont_area h1 {
+    font-size: 2.5vw;
+    margin-bottom: 1.3vw;
+}
+.Main_Cont_area .Main_Cont_txt div {
+    width: 400px;
+    margin-bottom: 2vw;
+}
+.Main_Cont_area .Main_Cont_txt div h2{
+    font-size: 2vw;
+}
+.Main_Cont_area .Main_Cont_txt div p {
+    padding-top: 1vw;
+    font-size: 1.5vw;
+    margin-left: 30px;
+}
+.Main_Cont_area .Main_Cont_img{
+    width: 100%;
+    padding-left: 5vw;
+}
+.Main_Cont_area .Main_Cont_img img:first-child{
+    width: 100%;
+}
+.Main_Cont_area .Main_Cont_img img {
+    width: 50%;
+    padding: 2px 5px;
+}
+
+.Ser_btn_bottom{
+    margin: 150px 0;
+    text-align: center;
+    font-size: 2vw;
+}
+.Ser_btn_bottom a{
+    padding: 8px 50px 8px 20px;
+    color: #fff;
+    background-color: #ffb837;
+    border-radius: 10px;
+}
+.Main_Cont_m_img{
+    display: none;
+}
+@media screen and (max-width:900px) {
+    .Ser_btn_bottom a{
+        padding: 8px 20px 8px 20px;
+        
+    }
+    .Ser_btn_bottom{
+        font-size: 3vw;
+    }
+    .Main_Cont_area .Main_Cont_txt{
+        margin:0 auto;
+    }
+    .Main_Cont_area .Main_Cont_txt div {
+        width:100%;
+    }
+    .Main_Cont_area h1 {
+        font-size: 5vw;
+        margin-bottom: 5vw;
+    }
+    .Main_Cont_area .Main_Cont_txt div h2{
+        font-size: 4vw;
+    }
+    .Main_Cont_area .Main_Cont_txt div p {
+        padding-top: 1.4vw;
+        font-size: 3.0vw;
+        margin-left: 30px;
+    }
+    .Main_Cont_area .Main_Cont_img{
+        display: none;
+    }
+    .Main_Cont_m_img{
+        display: block;
+        width: 100%;
+    }
+    .Main_Cont_m_img img:first-child{
+        width: 100%;
+    }
+    .Main_Cont_m_img img{
+        width: 50%;
+        padding: 5px;
+    }
+
+    
+}
